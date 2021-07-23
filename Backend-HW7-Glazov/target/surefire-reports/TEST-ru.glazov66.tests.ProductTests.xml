@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ru.glazov66.tests.ProductTests" time="5.374" tests="23" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6\target\test-classes;G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6\target\classes;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\admin\.m2\repository\com\squareup\retrofit2\retrofit\2.9.0\retrofit-2.9.0.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\3.14.9\okhttp-3.14.9.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-junit5\2.14.0\allure-junit5-2.14.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-junit-platform\2.14.0\allure-junit-platform-2.14.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\admin\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\admin\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\admin\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\admin\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\admin\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\admin\.m2\repository\com\squareup\retrofit2\converter-jackson\2.9.0\converter-jackson-2.9.0.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\logging-interceptor\3.9.0\logging-interceptor-3.9.0.jar;C:\Users\admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\admin\.m2\repository\org\mybatis\mybatis\3.5.7\mybatis-3.5.7.jar;C:\Users\admin\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.4.0\mybatis-generator-core-1.4.0.jar;C:\Users\admin\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\admin\.m2\repository\org\postgresql\postgresql\42.2.23\postgresql-42.2.23.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire9394936218712279375\surefirebooter8197892361533537149.jar C:\Users\admin\AppData\Local\Temp\surefire9394936218712279375 2021-07-23T13-08-46_383-jvmRun1 surefire16356807374064398073tmp surefire_015479103920850431858tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6\target\test-classes;G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6\target\classes;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\admin\.m2\repository\com\squareup\retrofit2\retrofit\2.9.0\retrofit-2.9.0.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\okhttp\3.14.9\okhttp-3.14.9.jar;C:\Users\admin\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-junit5\2.14.0\allure-junit5-2.14.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-junit-platform\2.14.0\allure-junit-platform-2.14.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\admin\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\admin\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\admin\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\admin\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\admin\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.2\junit-platform-launcher-1.7.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\admin\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\admin\.m2\repository\com\squareup\retrofit2\converter-jackson\2.9.0\converter-jackson-2.9.0.jar;C:\Users\admin\.m2\repository\com\squareup\okhttp3\logging-interceptor\3.9.0\logging-interceptor-3.9.0.jar;C:\Users\admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\admin\.m2\repository\org\mybatis\mybatis\3.5.7\mybatis-3.5.7.jar;C:\Users\admin\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.4.0\mybatis-generator-core-1.4.0.jar;C:\Users\admin\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\admin\.m2\repository\org\postgresql\postgresql\42.2.23\postgresql-42.2.23.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6\target"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire9394936218712279375\surefirebooter8197892361533537149.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.9+11-b1145.21"/>
+    <property name="user.name" value="admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="JBR-11.0.9.11-1145.21-jcef"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\Тестирование backend на Java\ДЗ\ДЗ-6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;G:\Данные с диска С\Рабочий стол с НР\GEEKBRAINS\IT Soft\allure-2.13.8\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\gitkraken\bin;C:\adb;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\gitkraken\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.version" value="11.0.9+11-b1145.21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="postNonExistCategoryProductTest" classname="ru.glazov66.tests.ProductTests" time="0.471">
+    <system-out><![CDATA[13:08:59.320 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:08:59.379 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+13:08:59.380 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+13:08:59.380 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+13:08:59.380 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+выбрали Product to put: Product(id=9302, title=Vermicelli Noodles, price=530, categoryTitle=Food)
+13:09:00.306 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=500, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:08:59 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:08:59 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (19ms, unknown-length body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (82-byte body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 500 http://80.78.248.82:8189/market/api/v1/products (35ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="getProductsTest" classname="ru.glazov66.tests.ProductTests" time="0.083">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9302, title=Vermicelli Noodles, price=530, categoryTitle=Food)
+13:09:00.427 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (17ms, unknown-length body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/products
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (20ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamPriceProductTest(int)[1]" classname="ru.glazov66.tests.ProductTests" time="0.096">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9302, title=Vermicelli Noodles, price=530, categoryTitle=Food)
+Подставляем цену 0
+Входная цена 530
+13:09:00.558 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:00.558 [main] INFO ru.glazov66.tests.ProductTests - 200
+13:09:00.558 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9302, title=Vermicelli Noodles, price=0, categoryTitle=Food)
+13:09:00.558 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE form request: 0
+13:09:00.559 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE from response: 0
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (15ms, unknown-length body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (73-byte body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (39ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamPriceProductTest(int)[2]" classname="ru.glazov66.tests.ProductTests" time="0.09">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9207, title=Dried Apricots, price=36, categoryTitle=Food)
+Подставляем цену -250
+Входная цена 36
+13:09:00.730 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:00.730 [main] INFO ru.glazov66.tests.ProductTests - 200
+13:09:00.730 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9207, title=Dried Apricots, price=-250, categoryTitle=Food)
+13:09:00.730 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE form request: -250
+13:09:00.730 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE from response: -250
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (14ms, unknown-length body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (72-byte body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (31ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamPriceProductTest(int)[3]" classname="ru.glazov66.tests.ProductTests" time="0.091">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9347, title=Corn Syrup, price=331, categoryTitle=Food)
+Подставляем цену 120
+Входная цена 331
+13:09:00.840 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:00.840 [main] INFO ru.glazov66.tests.ProductTests - 200
+13:09:00.840 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9347, title=Corn Syrup, price=120, categoryTitle=Food)
+13:09:00.840 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE form request: 120
+13:09:00.840 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE from response: 120
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (12ms, unknown-length body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (67-byte body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (32ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamPriceProductTest(int)[4]" classname="ru.glazov66.tests.ProductTests" time="0.079">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9216, title=Semolina, price=612, categoryTitle=Food)
+Подставляем цену 1000000000
+Входная цена 612
+13:09:00.947 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:00.947 [main] INFO ru.glazov66.tests.ProductTests - 200
+13:09:00.947 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9216, title=Semolina, price=1000000000, categoryTitle=Food)
+13:09:00.947 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE form request: 1000000000
+13:09:00.948 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE from response: 1000000000
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (15ms, unknown-length body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (72-byte body)
+июл. 23, 2021 1:09:00 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (25ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="deleteProductToDeleteTest" classname="ru.glazov66.tests.ProductTests" time="0.732">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9311, title=Celery Seed, price=169, categoryTitle=Food)
+productsToChooseToDeleteResponseResponse{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/categories/1}
+Продукт для удаления: Product(id=9254, title=Coconut Oil, price=1000000000, categoryTitle=Food)
+Id Продукта для удаления: 9254
+13:09:01.216 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+13:09:01.556 [main] DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 195388128.
+13:09:01.565 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.countByExample - ==>  Preparing: select count(*) from products
+13:09:01.628 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.countByExample - ==> Parameters: 
+13:09:01.690 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.countByExample - <==      Total: 1
+13:09:01.700 [main] INFO ru.glazov66.tests.ProductTests - countProductsBefore 764
+13:09:01.738 [main] INFO ru.glazov66.tests.ProductTests - countProdactsAfter 764
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (13ms, unknown-length body)
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (12ms, unknown-length body)
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> DELETE http://80.78.248.82:8189/market/api/v1/products/9254
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products/9254 (28ms, 0-byte body)
+]]></system-err>
+  </testcase>
+  <testcase name="postWithIdProductTest" classname="ru.glazov66.tests.ProductTests" time="0.078">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:01.851 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=400, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (25ms, unknown-length body)
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (76-byte body)
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 400 http://80.78.248.82:8189/market/api/v1/products (21ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postProductTest" classname="ru.glazov66.tests.ProductTests" time="0.253">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:01.974 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10463, title=French Toast, price=974, categoryTitle=Food)
+13:09:01.975 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:01.978 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10463(Long)
+13:09:01.984 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:01.985 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getTitle()): French Toast
+13:09:01.985 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): French Toast
+13:09:02.089 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByExample - ==>  Preparing: select id, title, price, category_id from products WHERE ( title = ? and price = ? and category_id = ? )
+13:09:02.091 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByExample - ==> Parameters: French Toast(String), 974(Integer), 1(Long)
+13:09:02.100 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByExample - <==      Total: 1
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (17ms, unknown-length body)
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (69-byte body)
+июл. 23, 2021 1:09:01 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (21ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamPriceProductTest(int)[1]" classname="ru.glazov66.tests.ProductTests" time="0.089">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:02.240 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.240 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10464, title=Tethys, price=0, categoryTitle=Furniture)
+13:09:02.240 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:02.241 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10464(Long)
+13:09:02.246 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:02.246 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getPrice()): 0
+13:09:02.247 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): 0
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (10ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (66-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (18ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamPriceProductTest(int)[2]" classname="ru.glazov66.tests.ProductTests" time="0.081">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:02.354 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.354 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10465, title=Tethys, price=-250, categoryTitle=Furniture)
+13:09:02.354 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:02.354 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10465(Long)
+13:09:02.359 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:02.359 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getPrice()): -250
+13:09:02.359 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): -250
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (13ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (69-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (23ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamPriceProductTest(int)[3]" classname="ru.glazov66.tests.ProductTests" time="0.082">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:02.467 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.468 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10466, title=Tethys, price=120, categoryTitle=Furniture)
+13:09:02.468 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:02.468 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10466(Long)
+13:09:02.474 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:02.475 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getPrice()): 120
+13:09:02.475 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): 120
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (13ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (68-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (21ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamPriceProductTest(int)[4]" classname="ru.glazov66.tests.ProductTests" time="0.092">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:02.590 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.590 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10467, title=Eos, price=1000000000, categoryTitle=Furniture)
+13:09:02.590 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:02.591 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10467(Long)
+13:09:02.596 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:02.596 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getPrice()): 1000000000
+13:09:02.596 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): 1000000000
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (13ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (72-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (22ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamTitleProductTest(String)[1]" classname="ru.glazov66.tests.ProductTests" time="0.095">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9392, title=Vanilla Beans, price=124, categoryTitle=Food)
+13:09:02.741 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.742 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9392, title=, price=124, categoryTitle=Furniture)
+13:09:02.742 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE from response: 
+13:09:02.742 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE form request: 
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (10ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (62-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (38ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamTitleProductTest(String)[2]" classname="ru.glazov66.tests.ProductTests" time="0.08">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9218, title=Cucumber, price=189, categoryTitle=Food)
+13:09:02.851 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.851 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9218, title=12345, price=189, categoryTitle=Furniture)
+13:09:02.851 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE from response: 12345
+13:09:02.851 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE form request: 12345
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (13ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (67-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (29ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamTitleProductTest(String)[3]" classname="ru.glazov66.tests.ProductTests" time="0.084">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9356, title=Wheat, price=999, categoryTitle=Food)
+13:09:02.956 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:02.956 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9356, title=##$$@@, price=999, categoryTitle=Furniture)
+13:09:02.956 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE from response: ##$$@@
+13:09:02.956 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE form request: ##$$@@
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (14ms, unknown-length body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (68-byte body)
+июл. 23, 2021 1:09:02 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (20ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putParamTitleProductTest(String)[4]" classname="ru.glazov66.tests.ProductTests" time="0.082">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9171, title=Green Pepper, price=0, categoryTitle=Food)
+13:09:03.068 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:03.068 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9171, title=support@geekbrains.ru, price=0, categoryTitle=Furniture)
+13:09:03.068 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE from response: support@geekbrains.ru
+13:09:03.068 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_TITLE form request: support@geekbrains.ru
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (11ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (81-byte body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (27ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="putChangeTitleAndPrice" classname="ru.glazov66.tests.ProductTests" time="0.094">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9314, title=Soba, price=864, categoryTitle=Food)
+13:09:03.223 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=200, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:03.223 [main] INFO ru.glazov66.tests.ProductTests - Product(id=9314, title=SUPER-BONUS_new_version, price=5020, categoryTitle=Furniture)
+13:09:03.223 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE from request: 5020.25
+13:09:03.223 [main] INFO ru.glazov66.tests.ProductTests - NEW_PUTTED_PRICE from response: 5020
+13:09:03.224 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:03.225 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 9314(Long)
+13:09:03.230 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:03.230 [main] INFO ru.glazov66.tests.ProductTests - название до замены (productToPut.getTitle()): Soba
+13:09:03.231 [main] INFO ru.glazov66.tests.ProductTests - новое название в запросе (putNewPriceAndTitle.getTitle()): SUPER-BONUS_new_version
+13:09:03.231 [main] INFO ru.glazov66.tests.ProductTests - новое название продукта в базе (checkProduct.getTitle()): SUPER-BONUS_new_version
+13:09:03.231 [main] INFO ru.glazov66.tests.ProductTests - Цена до замены (productToPut.getPrice()): 864
+13:09:03.231 [main] INFO ru.glazov66.tests.ProductTests - Новая цена в запросе (putNewPriceAndTitle.getPrice()): 5020
+13:09:03.231 [main] INFO ru.glazov66.tests.ProductTests - Новая цена продукта в базе (checkProduct.getPrice()): 5020
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (9ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> PUT http://80.78.248.82:8189/market/api/v1/products (86-byte body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products (34ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="getProductByNumberInCategoryTest" classname="ru.glazov66.tests.ProductTests" time="0.171">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9315, title=Sun dried tomatoes, price=601, categoryTitle=Food)
+13:09:03.419 [main] INFO ru.glazov66.tests.ProductTests - Response.body = Product(id=10349, title=Caesar Salad, price=0, categoryTitle=Food)
+13:09:03.419 [main] INFO ru.glazov66.tests.ProductTests - Product title: Caesar Salad
+13:09:03.419 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:03.419 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10349(Long)
+13:09:03.425 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:03.425 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productToGet.getTitle()): Caesar Salad
+13:09:03.425 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): Caesar Salad
+13:09:03.425 [main] INFO ru.glazov66.tests.ProductTests - Цена в запросе (productToGet.getPrice()): 0
+13:09:03.425 [main] INFO ru.glazov66.tests.ProductTests - Цена продукта в базе (checkFoodProduct.getPrice()): 0
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (12ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (40ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/products/10349
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/products/10349 (14ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamTitleProductTest(String)[1]" classname="ru.glazov66.tests.ProductTests" time="0.094">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9315, title=Sun dried tomatoes, price=601, categoryTitle=Food)
+13:09:03.535 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:03.536 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10468, title=, price=113, categoryTitle=Food)
+13:09:03.537 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:03.537 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10468(Long)
+13:09:03.541 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:03.541 [main] INFO ru.glazov66.tests.ProductTests - postParamTitle: 
+13:09:03.541 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getTitle()): 
+13:09:03.541 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): 
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (11ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (57-byte body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (25ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamTitleProductTest(String)[2]" classname="ru.glazov66.tests.ProductTests" time="0.097">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9315, title=Sun dried tomatoes, price=601, categoryTitle=Food)
+13:09:03.653 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:03.653 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10469, title=12345, price=116, categoryTitle=Food)
+13:09:03.654 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:03.654 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10469(Long)
+13:09:03.658 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:03.659 [main] INFO ru.glazov66.tests.ProductTests - postParamTitle: 12345
+13:09:03.659 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getTitle()): 12345
+13:09:03.659 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): 12345
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (10ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (62-byte body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (34ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamTitleProductTest(String)[3]" classname="ru.glazov66.tests.ProductTests" time="0.089">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9315, title=Sun dried tomatoes, price=601, categoryTitle=Food)
+13:09:03.772 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:03.772 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10470, title=##$$@@, price=136, categoryTitle=Food)
+13:09:03.772 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:03.773 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10470(Long)
+13:09:03.778 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:03.778 [main] INFO ru.glazov66.tests.ProductTests - postParamTitle: ##$$@@
+13:09:03.778 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getTitle()): ##$$@@
+13:09:03.778 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): ##$$@@
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (14ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (63-byte body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (29ms, unknown-length body)
+]]></system-err>
+  </testcase>
+  <testcase name="postParamTitleProductTest(String)[4]" classname="ru.glazov66.tests.ProductTests" time="0.075">
+    <system-out><![CDATA[выбрали Product to put: Product(id=9315, title=Sun dried tomatoes, price=601, categoryTitle=Food)
+13:09:03.865 [main] INFO ru.glazov66.tests.ProductTests - Response{protocol=http/1.1, code=201, message=, url=http://80.78.248.82:8189/market/api/v1/products}
+13:09:03.865 [main] INFO ru.glazov66.tests.ProductTests - Product(id=10471, title=support@geekbrains.ru, price=174, categoryTitle=Food)
+13:09:03.866 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==>  Preparing: select id, title, price, category_id from products where id = ?
+13:09:03.866 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - ==> Parameters: 10471(Long)
+13:09:03.870 [main] DEBUG ru.glazov66.db.dao.ProductsMapper.selectByPrimaryKey - <==      Total: 1
+13:09:03.870 [main] INFO ru.glazov66.tests.ProductTests - postParamTitle: support@geekbrains.ru
+13:09:03.870 [main] INFO ru.glazov66.tests.ProductTests - Название в запросе (productFoodCategory.getTitle()): support@geekbrains.ru
+13:09:03.870 [main] INFO ru.glazov66.tests.ProductTests - Название продукта в базе (checkFoodProduct.getTitle()): support@geekbrains.ru
+]]></system-out>
+    <system-err><![CDATA[июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> GET http://80.78.248.82:8189/market/api/v1/categories/1
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 200 http://80.78.248.82:8189/market/api/v1/categories/1 (11ms, unknown-length body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: --> POST http://80.78.248.82:8189/market/api/v1/products (78-byte body)
+июл. 23, 2021 1:09:03 PM okhttp3.internal.platform.Platform log
+INFO: <-- 201 http://80.78.248.82:8189/market/api/v1/products (14ms, unknown-length body)
+]]></system-err>
+  </testcase>
+</testsuite>
